@@ -1,6 +1,19 @@
 {
   "darkMode": true,
-  "nextPage": 1,
+  "nextPage": 3,
   "nextCard": 1,
-  "pages": []
+  "pages": [
+    {
+      "id": "page01",
+      "title": "Planned",
+      "color": "blue",
+      "cards": []
+    },
+    {
+      "id": "page02",
+      "title": "Completed",
+      "color": "green",
+      "cards": []
+    }
+  ]
 }
