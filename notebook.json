@@ -1,13 +1,49 @@
 {
   "darkMode": true,
   "nextPage": 3,
-  "nextCard": 1,
+  "nextCard": 6,
   "pages": [
     {
       "id": "page01",
       "title": "Planned",
       "color": "blue",
-      "cards": []
+      "cards": [
+        {
+          "id": "card01",
+          "title": "Build the filter toolbar",
+          "color": "yellow",
+          "content": "Keep the selected status in the URL.",
+          "date": "2026-11-03"
+        },
+        {
+          "id": "card02",
+          "title": "Implement the task-list endpoint",
+          "color": "purple",
+          "content": "Accept a status filter on GET /tasks.",
+          "date": "2026-11-03"
+        },
+        {
+          "id": "card03",
+          "title": "Fix duplicate requests when filters change",
+          "color": "red",
+          "content": "Reproduce by switching status twice quickly.",
+          "date": "2026-11-03"
+        },
+        {
+          "id": "card04",
+          "title": "Test filtering by status",
+          "color": "green",
+          "content": "Cover open, completed and empty results.",
+          "date": "2026-11-03"
+        },
+        {
+          "id": "card05",
+          "title": "Run the test suite in CI",
+          "color": "blue",
+          "content": "Run API and browser tests on each pull request.",
+          "date": "2026-11-03"
+        }
+      ]
     },
     {
       "id": "page02",
