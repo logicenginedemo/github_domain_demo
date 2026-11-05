@@ -28,13 +28,6 @@
           "color": "green",
           "content": "Cover open, completed and empty results.",
           "date": "2026-11-03"
-        },
-        {
-          "id": "card05",
-          "title": "Run the test suite in CI",
-          "color": "blue",
-          "content": "Run API and browser tests on each pull request.",
-          "date": "2026-11-03"
         }
       ]
     },
@@ -48,6 +41,13 @@
           "title": "Implement the task-list endpoint",
           "color": "purple",
           "content": "Accept a status filter on GET /tasks.",
+          "date": "2026-11-03"
+        },
+        {
+          "id": "card05",
+          "title": "Run the test suite in CI",
+          "color": "blue",
+          "content": "Run API and browser tests on each pull request.",
           "date": "2026-11-03"
         }
       ]
