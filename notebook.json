@@ -9,13 +9,6 @@
       "color": "blue",
       "cards": [
         {
-          "id": "card01",
-          "title": "Build the filter toolbar",
-          "color": "yellow",
-          "content": "Keep the selected status in the URL.",
-          "date": "2026-11-03"
-        },
-        {
           "id": "card02",
           "title": "Implement the task-list endpoint",
           "color": "purple",
@@ -49,7 +42,15 @@
       "id": "page02",
       "title": "Completed",
       "color": "green",
-      "cards": []
+      "cards": [
+        {
+          "id": "card01",
+          "title": "Build the filter toolbar",
+          "color": "yellow",
+          "content": "Keep the selected status in the URL.",
+          "date": "2026-11-03"
+        }
+      ]
     }
   ]
 }
